@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Tahoma;
+}
+.conteiners{
+    height: 200px;
+    width: 50%;
+    border: 1.5px solid lightgray;
+    margin-top: 10px;
+}
+.num{
+    height: 200px;
+    width: 215px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+.incon1{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    animation: one 5s infinite;
+    animation-delay: 5s;
+}
+@keyframes one{
+    from{
+        background-color: blue;
+        margin-left: 0px;
+    }
+    to{
+        background-color: green;
+        margin-left: 500px;
+    }
+}
+.incon2{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: aqua;
+    position: relative;
+    animation: two 5s infinite;
+    animation-delay: 10s;
+}
+@keyframes two{
+    from{
+        left: -200px;
+    }
+    to{
+        left: 500px;
+    }
+}
+.incon3{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    animation: three 5s infinite;
+    animation-delay: 15s;
+}
+@keyframes three{
+    from{
+        margin-left: 0px;
+        border-radius: 0px;
+        background-color: blue;
+    }
+    to{
+        margin-left: 500px;
+        border-radius: 100px;
+        background-color: aqua;
+    }
+}
+.incon4{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 10px;
+    animation: four 5s infinite;
+    animation-delay: 20s;
+    position: absolute;
+}
+@keyframes four{
+    from{
+        left: 0px;
+        top: 0px;
+    }
+    to{
+        left: 500px;
+        top: 0px;
+    }
+}
+.four{
+    position: relative;
+}
+.circle_two{
+    animation-delay: 20.2s;
+}
+.circle_three{
+    animation-delay: 20.4s;
+}
+.circle_four{
+    animation-delay: 20.6s;
+}
+.circle_five{
+    animation-delay: 20.8s;
+}
